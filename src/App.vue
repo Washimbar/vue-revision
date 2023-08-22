@@ -5,14 +5,16 @@
 </template>
 
 <script>
-export default {
-  name: "App",
-  data() {
-    return {
-      
+  export default {
+    name: 'App',
+    setup(){
+      return {
+        name: 'Washim Bari',
+      }
     }
   }
-}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
